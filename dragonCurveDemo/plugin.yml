@@ -1,0 +1,7 @@
+name: Dragon
+main: minecraftPlugin.DragonPlugin
+version: 1
+commands:
+   dragon:
+      description: Draws dragon curve
+      usage: /<command>
