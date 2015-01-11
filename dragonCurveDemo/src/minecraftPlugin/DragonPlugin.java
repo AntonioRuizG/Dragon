@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -30,7 +31,7 @@ public class DragonPlugin extends JavaPlugin{
 			brushLocation.setX(v.x+playerLocation.getX());
 			brushLocation.setY(v.y+playerLocation.getY());
 			brushLocation.setZ(v.z+playerLocation.getZ());
-			
+			brushLocation.getBlock().setType(Material.GOLD_BLOCK);
 		}
 	}
 }
